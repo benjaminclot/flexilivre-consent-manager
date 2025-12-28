@@ -2,7 +2,7 @@
   "name": "flexilivre-consent-manager",
   "version": "1.0.0",
   "description": "FlexiLivre Consent Manager",
-  "main": "index.js",
+  "main": "dist/consent.min.js",
   "scripts": {
     "start": "node server/index.js",
     "build": "node scripts/build.js",
