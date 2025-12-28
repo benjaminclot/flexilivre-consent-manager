@@ -16,7 +16,7 @@ module.exports = {
     tag: true,
     tagName: "${version}",
     tagAnnotation: "Release: ${version}",
-    // tagArgs: [ "-f" ],
+    tagArgs: [ "-f" ],
     push: false,
   },
   github: {
