@@ -13,11 +13,10 @@ module.exports = {
     requireBranch: "main",
     requireCleanWorkingDir: true,
     commit: true,
-    // commitArgs: [ "-S" ],
     tag: true,
     tagName: "${version}",
     tagAnnotation: "Release: ${version}",
-    // tagArgs: [ "-s" ],
+    tagArgs: [ "-f" ],
     push: false,
   },
   github: {
