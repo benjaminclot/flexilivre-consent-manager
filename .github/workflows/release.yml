@@ -25,6 +25,6 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git config --global user.email "github-actions[bot]@users.noreply.github.com"
           git checkout $GITHUB_REF
-          git add dist/consent.min.js
+          git add dist/consent.min.js -f
           git commit -m "chore: add built consent.min.js for release $GITHUB_REF"
           git push origin $GITHUB_REF
