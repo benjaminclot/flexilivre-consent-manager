@@ -40,6 +40,6 @@ jobs:
           git commit -m "Release ${{ env.VERSION }}" || echo "No changes to commit"
       - name: Create Release Tag
         run: |
-          git tag -a ${{ env.VERSION }} -f
+          git tag -f ${{ env.VERSION }}
       - name: Push changes
-        run: git push origin tag ${{ env.VERSION }} -f
+        run: git push -f origin tag ${{ env.VERSION }} -f
