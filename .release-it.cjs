@@ -3,24 +3,26 @@
 module.exports = {
   preReleaseBase: 1,
   hooks: {
-    "after:bump": "npm run build",
+    "after:bump": ["npm run build"],
     "before:git:release": "git add -f dist/",
+    "after:release": "git push origin HEAD",
   },
   git: {
-    commitMessage: "Release: ${version}",
+    commitMessage: "chore(release): ${version}",
     getLatestTagFromAllRefs: true,
     pushRepo: "git@github.com:benjaminclot/flexilivre-consent-manager.git",
     requireBranch: "main",
     requireCleanWorkingDir: true,
     commit: true,
-    commitArgs: [ "-S" ],
+    // commitArgs: [ "-S" ],
     tag: true,
     tagName: "${version}",
     tagAnnotation: "Release: ${version}",
     tagArgs: [ "-s" ],
+    push: true,
   },
   github: {
-    release: false,
+    release: true,
   },
   npm: {
     publish: false,
