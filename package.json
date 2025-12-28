@@ -7,7 +7,8 @@
     "start": "node server/index.js",
     "build": "node scripts/build.js",
     "dev": "node server/index.js --watch",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "release": "release-it"
   },
   "keywords": [],
   "author": "",
@@ -17,5 +18,8 @@
     "chokidar": "^5.0.0",
     "express": "^5.2.1",
     "terser": "^5.44.1"
+  },
+  "devDependencies": {
+    "release-it": "^19.2.2"
   }
 }
