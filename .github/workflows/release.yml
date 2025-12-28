@@ -2,7 +2,7 @@ name: Release
 on:
   push:
     branches:
-      - 'main'
+      - "main"
 
 jobs:
   release:
@@ -22,5 +22,21 @@ jobs:
         run: |
           git config --local user.email "action@github.com"
           git config --local user.name "github-actions"
+      - name: Extract version
+        run: |
+          VERSION=$(grep '"version":' package.json | sed -E 's/.*"version": "([^"]+)".*/\1/')
+      - name: Delete existing tag if it exists
+        run: |
+          if git rev-parse "refs/tags/$VERSION" >/dev/null 2>&1; then
+            git tag -d $VERSION
+            git push --delete origin $VERSION
+          fi
       - name: Build
         run: npm run release
+      - name: Add dist folder
+        run: git add -f dist/
+      - name: Create Release Tag
+        run: |
+          git tag -a $VERSION -m "Release: $VERSION" -f
+      - name: Push changes
+        run: git push origin main --tags -f
