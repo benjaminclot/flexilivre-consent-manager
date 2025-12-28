@@ -1,0 +1,123 @@
+{
+  "google_analytics": {
+    "legitimate": true,
+    "favicon": "<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M22.84 2.9982v17.9987c.0086 1.6473-1.3197 2.9897-2.967 2.9984a2.9808 2.9808 0 01-.3677-.0208c-1.528-.226-2.6477-1.5558-2.6105-3.1V3.1204c-.0369-1.5458 1.0856-2.8762 2.6157-3.1 1.6361-.1915 3.1178.9796 3.3093 2.6158.014.1201.0208.241.0202.3619zM4.1326 18.0548c-1.6417 0-2.9726 1.331-2.9726 2.9726C1.16 22.6691 2.4909 24 4.1326 24s2.9726-1.3309 2.9726-2.9726-1.331-2.9726-2.9726-2.9726zm7.8728-9.0098c-.0171 0-.0342 0-.0513.0003-1.6495.0904-2.9293 1.474-2.891 3.1256v7.9846c0 2.167.9535 3.4825 2.3505 3.763 1.6118.3266 3.1832-.7152 3.5098-2.327.04-.1974.06-.3983.0593-.5998v-8.9585c.003-1.6474-1.33-2.9852-2.9773-2.9882z' fill='#E37400'/></svg>",
+    "translations": {
+      "fr": {
+        "name": "Google Analytics",
+        "description": "Nous aide à mesurer notre audience",
+        "policyUrl": "https://support.google.com/analytics/answer/6004245?hl=fr"
+      },
+      "en": {
+        "name": "Google Analytics",
+        "description": "Helps us measure our audience",
+        "policyUrl": "https://support.google.com/analytics/answer/6004245?hl=en"
+      },
+      "es": {
+        "name": "Google Analytics",
+        "description": "Nos ayuda a medir nuestra audiencia",
+        "policyUrl": "https://support.google.com/analytics/answer/6004245?hl=es"
+      },
+      "it": {
+        "name": "Google Analytics",
+        "description": "Ci aiuta a misurare il nostro pubblico",
+        "policyUrl": "https://support.google.com/analytics/answer/6004245?hl=it"
+      },
+      "de": {
+        "name": "Google Analytics",
+        "description": "Hilft uns, unsere Reichweite zu messen",
+        "policyUrl": "https://support.google.com/analytics/answer/6004245?hl=de"
+      }
+    }
+  },
+  "google_ads": {
+    "favicon": "<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M3.9998 22.9291C1.7908 22.9291 0 21.1383 0 18.9293s1.7908-3.9998 3.9998-3.9998 3.9998 1.7908 3.9998 3.9998-1.7908 3.9998-3.9998 3.9998zm19.4643-6.0004L15.4632 3.072C14.3586 1.1587 11.9121.5028 9.9988 1.6074S7.4295 5.1585 8.5341 7.0718l8.0009 13.8567c1.1046 1.9133 3.5511 2.5679 5.4644 1.4646 1.9134-1.1046 2.568-3.5511 1.4647-5.4644zM7.5137 4.8438L1.5645 15.1484A4.5 4.5 0 0 1 4 14.4297c2.5597-.0075 4.6248 2.1585 4.4941 4.7148l3.2168-5.5723-3.6094-6.25c-.4499-.7793-.6322-1.6394-.5878-2.4784z' fill='#4285F4'/></svg>",
+    "translations": {
+      "fr": {
+        "name": "Google Ads",
+        "description": "Mesure les performances des campagnes Google",
+        "policyUrl": "https://business.safety.google/privacy/"
+      },
+      "en": {
+        "name": "Google Ads",
+        "description": "Measures Google campaign performance",
+        "policyUrl": "https://business.safety.google/privacy/"
+      },
+      "es": {
+        "name": "Google Ads",
+        "description": "Mide el rendimiento de las campañas de Google",
+        "policyUrl": "https://business.safety.google/privacy/"
+      },
+      "it": {
+        "name": "Google Ads",
+        "description": "Misura le prestazioni delle campagne Google",
+        "policyUrl": "https://business.safety.google/privacy/"
+      },
+      "de": {
+        "name": "Google Ads",
+        "description": "Misst die Leistung von Google-Kampagnen",
+        "policyUrl": "https://business.safety.google/privacy/"
+      }
+    }
+  },
+  "facebook": {
+    "favicon": "<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M9.101 23.691v-7.98H6.627v-3.667h2.474v-1.58c0-4.085 1.848-5.978 5.858-5.978.401 0 .955.042 1.468.103a8.68 8.68 0 0 1 1.141.195v3.325a8.623 8.623 0 0 0-.653-.036 26.805 26.805 0 0 0-.733-.009c-.707 0-1.259.096-1.675.309a1.686 1.686 0 0 0-.679.622c-.258.42-.374.995-.374 1.752v1.297h3.919l-.386 2.103-.287 1.564h-3.246v8.245C19.396 23.238 24 18.179 24 12.044c0-6.627-5.373-12-12-12s-12 5.373-12 12c0 5.628 3.874 10.35 9.101 11.647Z' fill='#0866FF'/></svg>",
+    "translations": {
+      "fr": {
+        "name": "Facebook",
+        "description": "Mesure l'efficacité des campagnes Facebook",
+        "policyUrl": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+      },
+      "en": {
+        "name": "Facebook",
+        "description": "Measures Facebook campaign effectiveness",
+        "policyUrl": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+      },
+      "es": {
+        "name": "Facebook",
+        "description": "Mide la eficacia de las campañas de Facebook",
+        "policyUrl": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+      },
+      "it": {
+        "name": "Facebook",
+        "description": "Misura l'efficacia delle campagne Facebook",
+        "policyUrl": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+      },
+      "de": {
+        "name": "Facebook",
+        "description": "Misst die Wirksamkeit von Facebook-Kampagnen",
+        "policyUrl": "https://www.facebook.com/privacy/policy/?entry_point=data_policy_redirect&entry=0"
+      }
+    }
+  },
+  "bing": {
+    "favicon": "<svg viewBox='0 0 24 24' xmlns='http://www.w3.org/2000/svg'><path d='M0 0v11.408h11.408V0zm12.594 0v11.408H24V0zM0 12.594V24h11.408V12.594zm12.594 0V24H24V12.594z' fill='#5E5E5E'/></svg>",
+    "translations": {
+      "fr": {
+        "name": "Microsoft Advertising",
+        "description": "Mesure l'efficacité des campagnes Microsoft Advertising",
+        "policyUrl": "https://privacy.microsoft.com/fr-fr/privacystatement"
+      },
+      "en": {
+        "name": "Microsoft Advertising",
+        "description": "Measures Microsoft Advertising campaign effectiveness",
+        "policyUrl": "https://privacy.microsoft.com/en-us/privacystatement"
+      },
+      "es": {
+        "name": "Microsoft Advertising",
+        "description": "Mide la eficacia de las campañas de Microsoft Advertising",
+        "policyUrl": "https://privacy.microsoft.com/es-es/privacystatement"
+      },
+      "it": {
+        "name": "Microsoft Advertising",
+        "description": "Misura l'efficacia delle campagne Microsoft Advertising",
+        "policyUrl": "https://privacy.microsoft.com/it-it/privacystatement"
+      },
+      "de": {
+        "name": "Microsoft Advertising",
+        "description": "Misst die Wirksamkeit von Microsoft Advertising-Kampagnen",
+        "policyUrl": "https://privacy.microsoft.com/de-de/privacystatement"
+      }
+    }
+  }
+}

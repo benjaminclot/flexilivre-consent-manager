@@ -1,0 +1,23 @@
+{
+  "domain": ".flexilivre.com",
+  "enabledVendors": [
+    "google_analytics",
+    "google_ads",
+    "facebook",
+    "bing"
+  ],
+  "language": "fr",
+  "translations": {
+    "policyUrl": "https://www.flexilivre.com/politique-de-confidentialite/",
+    "title": "Les Cookies",
+    "description": "Nous et nos partenaires utilisons des technologies telles que les cookies ou le ciblage et traitons des données personnelles (adresse IP, navigateur...) afin de vous montrer des publicités personnalisées, améliorer votre expérience, mesurer notre audience ou personnaliser le contenu de notre site Web.<br>Vous pouvez modifier vos préférences à tout moment.",
+    "readPolicy": "Lire la politique de confidentialité",
+    "configureButton": "Paramètres",
+    "acceptButton": "OK pour moi",
+    "continueWithoutAccepting": "Continuer sans accepter",
+    "checkAllButton": "Tout cocher",
+    "prevButton": "Retour",
+    "acceptAllButton": "J'accepte tout",
+    "endButton": "Terminer"
+  }
+}

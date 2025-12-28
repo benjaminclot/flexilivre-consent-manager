@@ -1,0 +1,23 @@
+{
+  "domain": ".flexilivre.de",
+  "enabledVendors": [
+    "google_analytics",
+    "google_ads",
+    "facebook",
+    "bing"
+  ],
+  "language": "de",
+  "translations": {
+    "policyUrl": "https://www.flexilivre.de/datenschutzerklaerung/",
+    "title": "Die Cookies",
+    "description": "Wir und unsere Partner verwenden Technologien wie Cookies oder Targeting und verarbeiten personenbezogene Daten (IP-Adresse, Browser...), um Ihnen personalisierte Werbung anzuzeigen, Ihre Erfahrung zu verbessern, unsere Reichweite zu messen oder den Inhalt unserer Website zu personalisieren.<br>Sie können Ihre Einstellungen jederzeit ändern.",
+    "readPolicy": "Datenschutzerklärung lesen",
+    "configureButton": "Einstellungen",
+    "acceptButton": "Akzeptieren",
+    "continueWithoutAccepting": "Ohne Zustimmung fortfahren",
+    "checkAllButton": "Alle auswählen",
+    "prevButton": "Zurück",
+    "acceptAllButton": "Alle akzeptieren",
+    "endButton": "Fertig"
+  }
+}

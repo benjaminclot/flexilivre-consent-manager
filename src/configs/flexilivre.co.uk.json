@@ -1,0 +1,23 @@
+{
+  "domain": ".flexilivre.co.uk",
+  "enabledVendors": [
+    "google_analytics",
+    "google_ads",
+    "facebook",
+    "bing"
+  ],
+  "language": "en",
+  "translations": {
+    "policyUrl": "https://www.flexilivre.co.uk/privacy-policy/",
+    "title": "Cookies",
+    "description": "We and our partners use technologies such as cookies or targeting and process personal data (IP address, browser...) to show you personalized ads, improve your experience, measure our audience or personalize the content of our website.<br>You can change your preferences at any time.",
+    "readPolicy": "Read Privacy Policy",
+    "configureButton": "Settings",
+    "acceptButton": "OK for me",
+    "continueWithoutAccepting": "Continue without accepting",
+    "checkAllButton": "Check all",
+    "prevButton": "Back",
+    "acceptAllButton": "I accept all",
+    "endButton": "Finish"
+  }
+}

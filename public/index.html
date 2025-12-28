@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Consent Manager Demo</title>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+      line-height: 1.6;
+    }
+
+    .content {
+      max-width: 800px;
+      margin: 0 auto;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="content">
+    <h1>Welcome to FlexiLivre</h1>
+    <p>This is a demo page to test the self-hosted consent manager.</p>
+  </div>
+
+  <!-- Consent Manager Script -->
+  <!-- Note: In production, change data-domain to the actual domain -->
+  <script src="/consent.min.js" data-domain="flexilivre.com" async></script>
+</body>
+
+</html>

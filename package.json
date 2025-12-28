@@ -1,0 +1,21 @@
+{
+  "name": "flexilivre-consent-manager",
+  "version": "1.0.0",
+  "description": "FlexiLivre Consent Manager",
+  "main": "index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "build": "node scripts/build.js",
+    "dev": "node server/index.js --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "chokidar": "^5.0.0",
+    "express": "^5.2.1",
+    "terser": "^5.44.1"
+  }
+}
