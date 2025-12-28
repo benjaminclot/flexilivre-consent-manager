@@ -32,7 +32,7 @@
 #consent-manager-root * { box-sizing: border-box !important; }
 .fcm-overlay { position: fixed !important; bottom: 0 !important; left: 0 !important; right: 0 !important; width: 100% !important; height: auto !important; background: transparent !important; display: flex !important; flex-direction: column !important; align-items: flex-end !important; justify-content: center !important; opacity: 0; visibility: hidden; margin: 0 !important; padding: 0 !important; border: none !important; z-index: 2147483647 !important; }
 .fcm-overlay.fcm-visible { opacity: 1; visibility: visible; }
-.fcm-modal { background: white !important; width: 100% !important; max-width: none !important; border-radius: 0 !important; box-shadow: 0 -4px 10px rgba(0,0,0,0.1) !important; overflow: hidden !important; display: flex !important; flex-direction: column !important; max-height: 80vh !important; margin: 0 !important; padding: 0 !important; border: none !important; pointer-events: auto !important; }
+.fcm-modal { background: white !important; width: 100% !important; max-width: none !important; border-radius: 0 !important; box-shadow: 0 0 10px rgba(0,0,0,0.1) !important; overflow: hidden !important; display: flex !important; flex-direction: column !important; max-height: 80vh !important; margin: 0 !important; padding: 0 !important; border: none !important; pointer-events: auto !important; }
 @media (min-width: 450px) { .fcm-overlay { bottom: 20px !important; left: 20px !important; right: auto !important; width: auto !important; justify-content: flex-start !important; } .fcm-modal { width: 420px !important; border-radius: 12px !important; box-shadow: 0 10px 20px rgba(0,0,0,0.2) !important; } }
 .fcm-header { padding: 20px 20px 0 20px !important; background: transparent !important; }
 .fcm-title { font-size: 1rem !important; font-weight: bold !important; margin: 0 0 10px 0 !important; color: #111 !important; line-height: 1.2 !important; }
@@ -60,8 +60,6 @@ input:checked + .fcm-slider:before { transform: translateX(24px) !important; }
 input:disabled + .fcm-slider { opacity: 0.6 !important; cursor: not-allowed !important; }
 .fcm-policy-link { display: inline-flex !important; align-items: center !important; justify-content: center !important; width: 16px !important; height: 16px !important; border-radius: 50% !important; background-color: #eee !important; color: #666 !important; font-size: 10px !important; font-weight: bold !important; text-decoration: none !important; transition: background-color 0.2s, color 0.2s !important; line-height: 10px !important; }
 .fcm-text-link { color: #666 !important; font-size: 0.75rem !important; text-decoration: underline !important; margin-top: 10px !important; display: inline-block !important; }
-.fcm-widget { position: fixed !important; bottom: 20px !important; left: 20px !important; width: 50px !important; height: 50px !important; background: white !important; border-radius: 50% !important; box-shadow: 0 4px 10px rgba(0,0,0,0.1) !important; display: flex !important; align-items: center !important; justify-content: center !important; cursor: pointer !important; z-index: 9998 !important; margin: 0 !important; padding: 0 !important; border: none !important; }
-.fcm-widget svg { width: 24px !important; height: 24px !important; fill: #ea67a2 !important; display: block !important; }
         `;
     const style = document.createElement('style');
     style.textContent = css;
