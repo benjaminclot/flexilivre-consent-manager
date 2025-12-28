@@ -4,7 +4,7 @@ module.exports = {
   preReleaseBase: 1,
   hooks: {
     "after:bump": ["npm run build"],
-    "before:git:release": "git tag -d {version} && git add -f dist/",
+    "before:git:release": "git tag -d ${version} && git add -f dist/",
   },
   git: {
     commitMessage: "chore(release): ${version}",
