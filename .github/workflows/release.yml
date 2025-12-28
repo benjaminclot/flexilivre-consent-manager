@@ -35,6 +35,9 @@ jobs:
         run: npm run build
       - name: Add dist folder
         run: git add -f dist/
+      - name: Commit changes
+        run: |
+          git commit -m "Release ${{ env.VERSION }}" || echo "No changes to commit"
       - name: Create Release Tag
         run: |
           git tag -a ${{ env.VERSION }} -f
