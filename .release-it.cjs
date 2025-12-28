@@ -3,6 +3,7 @@
 module.exports = {
   preReleaseBase: 1,
   hooks: {
+    "before:bump": "if [ $(git tag -l '${version}') ]; then git tag -d ${version} && git push --delete origin ${version}; fi",
     "after:bump": ["npm run build"],
     "before:git:release": "git add -f dist/",
   },
