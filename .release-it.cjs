@@ -18,7 +18,7 @@ module.exports = {
     tagName: "${version}",
     tagAnnotation: "Release: ${version}",
     // tagArgs: [ "-s" ],
-    push: true,
+    push: false,
   },
   github: {
     release: false,
