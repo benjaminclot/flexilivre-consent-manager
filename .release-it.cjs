@@ -5,7 +5,6 @@ module.exports = {
   hooks: {
     "after:bump": ["npm run build"],
     "before:git:release": "git add -f dist/",
-    "after:release": "git push origin HEAD",
   },
   git: {
     commitMessage: "chore(release): ${version}",
@@ -22,7 +21,7 @@ module.exports = {
     push: true,
   },
   github: {
-    release: true,
+    release: false,
   },
   npm: {
     publish: false,
