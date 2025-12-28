@@ -1,4 +1,4 @@
-# Self-Hosted Consent Manager
+# FlexiLivre Consent Manager
 
 A lightweight, self-hosted Cookie Consent Manager (CMP) similar to Axeptio. It features a Vanilla JS frontend that bundles all configurations at build time for fully autonomous operation (no external API required).
 
@@ -70,10 +70,10 @@ Vendor definitions are in `src/configs/vendors.json` with translations for each 
 Add the consent script to your website:
 
 ```html
-<script src="https://your-cdn.com/consent.min.js" data-domain=".flexilivre.com"></script>
+<script src="https://your-cdn.com/consent.min.js" data-domain="flexilivre.com"></script>
 ```
 
-**Note:** The `data-domain` attribute must match a domain key in your config files (e.g., `.flexilivre.com`).
+**Note:** The `data-domain` attribute must match a domain key in your config files (e.g., `flexilivre.com`).
 
 To programmatically show the banner (e.g., from a "Manage cookies" link):
 
