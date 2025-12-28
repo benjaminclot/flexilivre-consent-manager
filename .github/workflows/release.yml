@@ -22,8 +22,8 @@ jobs:
         run: npm run build
       - name: Add dist/consent.min.js to current tag
         run: |
-          git config --global user.name "github-actions[bot]"
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.email "action@github.com"
+          git config --local user.name "github-actions"
           git checkout $GITHUB_REF
           git add dist/consent.min.js -f
           git commit -m "chore: add built consent.min.js for release $GITHUB_REF"
