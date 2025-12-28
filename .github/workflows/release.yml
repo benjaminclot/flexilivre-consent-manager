@@ -32,7 +32,7 @@ jobs:
             git push --delete origin $VERSION
           fi
       - name: Build
-        run: npm run release
+        run: npm run build
       - name: Add dist folder
         run: git add -f dist/
       - name: Create Release Tag
